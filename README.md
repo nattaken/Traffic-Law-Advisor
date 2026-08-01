@@ -68,10 +68,16 @@ clone โปรเจค
   
   *** หากไม่เป็นไปตามนี้ ให้ตรวจสอบการติดตั้ง library แล้วรันไฟล์ build_db.py อีกครั้ง ***
 
-4. หลังจากได้ vector database ก็ทำการรันไฟล์ app.py ที่จะเป็นตัวเว็บแชท
+4. หลังจากได้ vector database ก็ทำการรันไฟล์ app.py เพื่อเริ่มต้นการใช้งานเว็บแชท
+   โดยถ้ารันไฟล์ app.py สำเร็จก็จะแสดงประมาณนี้
+
+        * Running on local URL:  http://127.0.0.1:7860
+        * To create a public link, set `share=True` in `launch()`.
+
+สามารถ ctril + click ที่ url หรือ คัดลอก url ไปวางบนเว็บบราวเซอร์
+
+        http://127.0.0.1:7860
 
   *** หลังจากได้ vector database สามารถลบไฟล์ build_db.py และ โฟลเดอร์ data ได้ ***
-5. 
 
-
-6. -
+  ---
